@@ -26,5 +26,7 @@ In order to access the data via the Globus Web App, click on the Globus Icon in 
 
 For downloading data to a Supercomputer, checkout the documentation on how to access the Globus endpoint which is most probably already available, then use that as the destination endpoint in the [Globus web interface](https://app.globus.org/).
 
+![](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/dust/dust_353GHz.jpg)
+
 ## Datasets
 
