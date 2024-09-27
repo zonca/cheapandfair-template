@@ -30,3 +30,8 @@ For downloading data to a Supercomputer, checkout the documentation on how to ac
 
 ## Datasets
 
+|           Link           | Dataset | Number of Files | Total Size |
+| ------------------------ | ------- | --------------- | ---------- |
+| [Link](index-cmb.html)   | cmb     | `13`            | 14.7 MiB   |
+| [Link](index-synch.html) | synch   | `12`            | 13.7 MiB   |
+| [Link](index-dust.html)  | dust    | `12`            | 13.8 MiB   |
