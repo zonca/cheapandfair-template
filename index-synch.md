@@ -20,17 +20,17 @@ Download the [file manifest](https://g-1926f5.c2d0f8.bd7c.data.globus.org//myfol
 - Total size: 13.7 MiB
 - [JSON format file manifest](https://g-1926f5.c2d0f8.bd7c.data.globus.org//myfolder5//synch/manifest.json)
 
-|                                       File Name                                       | Frequency Band (GHz) |   Size   |
-| ------------------------------------------------------------------------------------- | -------------------: | -------- |
-| [`synch_023GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/synch_023GHz.fits) |                   23 | 2.3 MiB  |
-| ![`synch_023GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/synch_023GHz.jpg)  |                   23 | 34.1 KiB |
-| [`synch_100GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/synch_100GHz.fits) |                  100 | 2.3 MiB  |
-| ![`synch_100GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/synch_100GHz.jpg)  |                  100 | 39.9 KiB |
-| [`synch_143GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/synch_143GHz.fits) |                  143 | 2.3 MiB  |
-| ![`synch_143GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/synch_143GHz.jpg)  |                  143 | 41.0 KiB |
-| [`synch_353GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/synch_353GHz.fits) |                  353 | 2.3 MiB  |
-| ![`synch_353GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/synch_353GHz.jpg)  |                  353 | 24.3 KiB |
-| [`synch_545GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/synch_545GHz.fits) |                  545 | 2.3 MiB  |
-| ![`synch_545GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/synch_545GHz.jpg)  |                  545 | 23.8 KiB |
-| [`synch_857GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/synch_857GHz.fits) |                  857 | 2.3 MiB  |
-| ![`synch_857GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/synch_857GHz.jpg)  |                  857 | 23.9 KiB |
+|                                               File Name                                               | Frequency Band (GHz) |   Size   |
+| ----------------------------------------------------------------------------------------------------- | -------------------: | -------- |
+| [`synch_023GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/synch/synch_023GHz.fits) |                   23 | 2.3 MiB  |
+| ![`synch_023GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/synch/synch_023GHz.jpg)  |                   23 | 34.1 KiB |
+| [`synch_100GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/synch/synch_100GHz.fits) |                  100 | 2.3 MiB  |
+| ![`synch_100GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/synch/synch_100GHz.jpg)  |                  100 | 39.9 KiB |
+| [`synch_143GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/synch/synch_143GHz.fits) |                  143 | 2.3 MiB  |
+| ![`synch_143GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/synch/synch_143GHz.jpg)  |                  143 | 41.0 KiB |
+| [`synch_353GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/synch/synch_353GHz.fits) |                  353 | 2.3 MiB  |
+| ![`synch_353GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/synch/synch_353GHz.jpg)  |                  353 | 24.3 KiB |
+| [`synch_545GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/synch/synch_545GHz.fits) |                  545 | 2.3 MiB  |
+| ![`synch_545GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/synch/synch_545GHz.jpg)  |                  545 | 23.8 KiB |
+| [`synch_857GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/synch/synch_857GHz.fits) |                  857 | 2.3 MiB  |
+| ![`synch_857GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/synch/synch_857GHz.jpg)  |                  857 | 23.9 KiB |

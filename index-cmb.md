@@ -20,18 +20,18 @@ Download the [file manifest](https://g-1926f5.c2d0f8.bd7c.data.globus.org//myfol
 - Total size: 14.7 MiB
 - [JSON format file manifest](https://g-1926f5.c2d0f8.bd7c.data.globus.org//myfolder5//cmb/manifest.json)
 
-|                                     File Name                                     | Frequency Band (GHz) |   Size    |
-| --------------------------------------------------------------------------------- | -------------------: | --------- |
-| [`cls.csv`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/cls.csv)                 |                    0 | 561.7 KiB |
-| [`cmb_023GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/cmb_023GHz.fits) |                   23 | 2.3 MiB   |
-| [`cmb_023GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/cmb_023GHz.jpg)   |                   23 | 107.9 KiB |
-| [`cmb_100GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/cmb_100GHz.fits) |                  100 | 2.3 MiB   |
-| [`cmb_100GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/cmb_100GHz.jpg)   |                  100 | 107.8 KiB |
-| [`cmb_143GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/cmb_143GHz.fits) |                  143 | 2.3 MiB   |
-| [`cmb_143GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/cmb_143GHz.jpg)   |                  143 | 107.8 KiB |
-| [`cmb_353GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/cmb_353GHz.fits) |                  353 | 2.3 MiB   |
-| [`cmb_353GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/cmb_353GHz.jpg)   |                  353 | 108.0 KiB |
-| [`cmb_545GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/cmb_545GHz.fits) |                  545 | 2.3 MiB   |
-| [`cmb_545GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/cmb_545GHz.jpg)   |                  545 | 107.9 KiB |
-| [`cmb_857GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/cmb_857GHz.fits) |                  857 | 2.3 MiB   |
-| [`cmb_857GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/cmb_857GHz.jpg)   |                  857 | 107.9 KiB |
+|                                            File Name                                            | Frequency Band (GHz) |   Size    |
+| ----------------------------------------------------------------------------------------------- | -------------------: | --------- |
+| [`cls.csv`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/cmb/cls.csv)                 |                    0 | 561.7 KiB |
+| [`cmb_023GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/cmb/cmb_023GHz.fits) |                   23 | 2.3 MiB   |
+| [`cmb_023GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/cmb/cmb_023GHz.jpg)   |                   23 | 107.9 KiB |
+| [`cmb_100GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/cmb/cmb_100GHz.fits) |                  100 | 2.3 MiB   |
+| [`cmb_100GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/cmb/cmb_100GHz.jpg)   |                  100 | 107.8 KiB |
+| [`cmb_143GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/cmb/cmb_143GHz.fits) |                  143 | 2.3 MiB   |
+| [`cmb_143GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/cmb/cmb_143GHz.jpg)   |                  143 | 107.8 KiB |
+| [`cmb_353GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/cmb/cmb_353GHz.fits) |                  353 | 2.3 MiB   |
+| [`cmb_353GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/cmb/cmb_353GHz.jpg)   |                  353 | 108.0 KiB |
+| [`cmb_545GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/cmb/cmb_545GHz.fits) |                  545 | 2.3 MiB   |
+| [`cmb_545GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/cmb/cmb_545GHz.jpg)   |                  545 | 107.9 KiB |
+| [`cmb_857GHz.fits`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/cmb/cmb_857GHz.fits) |                  857 | 2.3 MiB   |
+| [`cmb_857GHz.jpg`](https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/cmb/cmb_857GHz.jpg)   |                  857 | 107.9 KiB |
