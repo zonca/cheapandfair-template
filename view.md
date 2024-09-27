@@ -8,8 +8,6 @@ date_created: "2024-09-12"
 <script src="https://cdn.jsdelivr.net/pyodide/v0.26.1/full/pyodide.js"></script>
 <a href="jup/">Test pyhealpy in JupyterLite</a>
 
-<p><code>healpy</code> version: <code id="healpyversion"></code></p>
-
 <script type="text/javascript">
   async function main(){
     let pyodide = await loadPyodide();
@@ -30,10 +28,15 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 from pyodide.http import pyfetch
-response = await pyfetch("https://healpy.github.io/pyhealpy/test/data/wmap_band_iqumap_r9_7yr_W_v4_udgraded32_masked_smoothed10deg_fortran.fits.zip")
+response = await pyfetch("https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/dust/dust_023GHz.fits")
+
+content = await response.bytes()
+with open("a.fits", 'wb') as f:
+    f.write(content)
+
 await response.unpack_archive()
 m = hp.read_map(
-"wmap_band_iqumap_r9_7yr_W_v4_udgraded32_masked_smoothed10deg_fortran.fits"
+"a.fits"
 )
 hp.projview(m, coord=["G"], projection_type="mollweide")
 plt.show()
