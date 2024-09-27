@@ -1,12 +1,11 @@
 ---
-title: "Cheap and Fair demo Data Repository"
+title: "FITS map viewer"
 author: "Cheap and Fair team"
 description: "Demo data repository"
 date_created: "2024-09-12"
 ---
 
 <script src="https://cdn.jsdelivr.net/pyodide/v0.26.1/full/pyodide.js"></script>
-
 
 <script type="text/javascript">
   async function main(){
@@ -24,15 +23,18 @@ from pyodide.ffi import to_js
 from urllib.parse import urlparse
 from urllib.parse import parse_qs
 
+
 def get_url_parameters():
     # Get the current URL using JavaScript's window.location.href
     url = js.window.location.href
 
     parsed_url = urlparse(url)
-    captured_value = parse_qs(parsed_url.query)['url'][0]
+    captured_value = parse_qs(parsed_url.query)["url"][0]
     return captured_value
 
+
 import matplotlib
+
 matplotlib.use("module://matplotlib_pyodide.wasm_backend")
 import healpy as hp
 import numpy as np
@@ -43,13 +45,11 @@ from pyodide.http import pyfetch
 url = get_url_parameters()
 response = await pyfetch(url)
 a = await response.bytes()
-with open("a.fits", 'wb') as f:
+with open("a.fits", "wb") as f:
     f.write(a)
-
-m = hp.read_map(
-"a.fits"
-)
-hp.projview(m, coord=["G"], unit="uK_CMB", projection_type="mollweide", title=url.split("/")[-1])
+m = hp.read_map("a.fits")
+hp.projview(m, coord=["G"], unit="uK_CMB", projection_type="mollweide")
+plt.title(url.split("/")[-1])
 plt.show()
 `);
   }
