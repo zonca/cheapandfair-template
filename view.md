@@ -6,7 +6,7 @@ date_created: "2024-09-12"
 ---
 
 <script src="https://cdn.jsdelivr.net/pyodide/v0.26.1/full/pyodide.js"></script>
-<a href="jup/">Test pyhealpy in JupyterLite</a>
+
 
 <script type="text/javascript">
   async function main(){
@@ -19,6 +19,19 @@ await micropip.install('https://healpy.github.io/pyhealpy/dist/healpy-0.1.0-py3-
 await micropip.install('matplotlib');
 
 pyodide.runPythonAsync(`
+import js
+from pyodide.ffi import to_js
+from urllib.parse import urlparse
+from urllib.parse import parse_qs
+
+def get_url_parameters():
+    # Get the current URL using JavaScript's window.location.href
+    url = js.window.location.href
+
+    parsed_url = urlparse(url)
+    captured_value = parse_qs(parsed_url.query)['url'][0]
+    return captured_value
+
 import matplotlib
 matplotlib.use("module://matplotlib_pyodide.wasm_backend")
 import healpy as hp
@@ -26,17 +39,17 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 from pyodide.http import pyfetch
-response = await pyfetch("https://g-1926f5.c2d0f8.bd7c.data.globus.org/myfolder5/dust/dust_023GHz.fits")
 
-content = await response.bytes()
+url = get_url_parameters()
+response = await pyfetch(url)
+a = await response.bytes()
 with open("a.fits", 'wb') as f:
-    f.write(content)
+    f.write(a)
 
-await response.unpack_archive()
 m = hp.read_map(
 "a.fits"
 )
-hp.projview(m, coord=["G"], projection_type="mollweide")
+hp.projview(m, coord=["G"], unit="uK_CMB", projection_type="mollweide", title=url.split("/")[-1])
 plt.show()
 `);
   }
