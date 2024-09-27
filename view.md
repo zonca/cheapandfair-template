@@ -17,8 +17,6 @@ await pyodide.loadPackage("ssl");
 const micropip = pyodide.pyimport("micropip");
 await micropip.install('https://healpy.github.io/pyhealpy/dist/healpy-0.1.0-py3-none-any.whl');
 await micropip.install('matplotlib');
-const version = document.getElementById("healpyversion");
-version.textContent = pyodide.runPython("import healpy as hp; hp.__version__");
 
 pyodide.runPythonAsync(`
 import matplotlib
