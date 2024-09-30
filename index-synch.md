@@ -1,5 +1,5 @@
 ---
-title: Dataset: Cosmic Microwave Background Simulations synch
+title: Dataset - Cosmic Microwave Background Simulations synch
 author: Author Name
 description: Maps in FITS format and HEALPix pixelization and map preview in jpg format for the synch component
 date_created: 2024-09-12

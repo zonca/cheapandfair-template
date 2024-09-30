@@ -1,5 +1,5 @@
 ---
-title: Dataset: Cosmic Microwave Background Simulations dust
+title: Dataset - Cosmic Microwave Background Simulations dust
 author: Author Name
 description: Maps in FITS format and HEALPix pixelization and map preview in jpg format for the dust component
 date_created: 2024-09-12
