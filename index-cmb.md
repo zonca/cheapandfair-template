@@ -1,8 +1,8 @@
+---
 title: Dataset: Cosmic Microwave Background Simulations cmb
 author: Author Name
 description: Maps in FITS format and HEALPix pixelization and map preview in jpg format for the cmb component
 date_created: 2024-09-12
----
 seo:
   type: Dataset
 ---
